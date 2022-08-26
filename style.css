@@ -6,6 +6,10 @@
   vertical-align: baseline;
 }
 
+body {
+  background: linear-gradient(to top, yellow, blue);
+}
+
 .calculator {
   display: grid;
   justify-content: center;
@@ -17,7 +21,7 @@
   background-color: rgb(0, 0, 0);
   color: white;
   text-align: right;
-  padding: 0.5rem 1rem 0.5rem ;
+  padding: 0.5rem 1rem 0.5rem;
   height: 5rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -27,7 +31,7 @@
 #first-operand {
   font-size: 1.3rem;
   margin-bottom: 0.7rem;
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #current-operand {
@@ -43,31 +47,51 @@
 
 button {
   font-size: 2.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: brown;
+}
+
+button:hover {
+  background-color: beige;
 }
 
 #add {
   grid-row: 4/6;
   grid-column: 4/5;
+  background-color: aqua;
 }
 
 #times {
   grid-row: 2/3;
   grid-column: 4/5;
+  background-color: blueviolet;
 }
 
 #division {
   grid-row: 1/2;
   grid-column: 4/5;
+  background-color: blueviolet;
 }
 
 #minus {
   grid-row: 3/4;
   grid-column: 4/5;
+  background-color: blueviolet;
 }
 
 #equal {
   grid-row: 5/6;
   grid-column: 2/4;
+  background-color: yellow;
+}
+
+#equal:hover,
+#division:hover,
+#minus:hover,
+#times:hover,
+#add:hover {
+  background-color: beige;
 }
 
 #zero {
