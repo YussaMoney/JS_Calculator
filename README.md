@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Click here](https://yussamoney.github.io/JS_Calculator)
+[Click here]()
 
 ## Prerequisites
 
